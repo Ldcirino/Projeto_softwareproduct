@@ -5,17 +5,26 @@ import Header from "../../components/header";
 
 function Dashboard() {
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-slate-900 to-slate-800">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-slate-900 to-slate-900">
       <Header />
 
-      <main className="p-4 space-y-4">
-        <CardTreino 
-          titulo="Treino A" 
-          descricao="Treino previsto para hoje" 
-        />
+      <main className="flex flex-col items-center p-4 space-y-4">
+        
+        <div className="w-full max-w-md">
+          <CardTreino 
+            titulo="Treino A" 
+            descricao="Treino previsto para hoje" 
+          />
+        </div>
 
-        <PostCard nome={""} data={""} conteudo={""}          
-        />
+        <div className="w-full max-w-md">
+          <PostCard 
+            nome={""} 
+            data={""} 
+            conteudo={""}          
+          />
+        </div>
+
       </main>
 
       <Footer />
