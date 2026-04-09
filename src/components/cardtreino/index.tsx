@@ -15,12 +15,12 @@ function CardTreino({ titulo, descricao, duracao = "45 min", exercicios = 6 }: C
   return (
     <div className="relative bg-slate-800/60 border border-slate-700/60 rounded-2xl p-5 overflow-hidden">
       {/* Glow de fundo */}
-      <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/10 rounded-full blur-2xl pointer-events-none" />
+      <div className="absolute top-0 right-0 w-32 h-32 bg-sky-500/10 rounded-full blur-2xl pointer-events-none" />
 
       <div className="relative flex justify-between items-start">
         <div className="flex-1">
           <div className="flex items-center gap-2 mb-1">
-            <span className="text-xs font-semibold text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2 py-0.5 rounded-full">
+            <span className="text-xs font-semibold text-sky-400 bg-sky-500/10 border border-sky-500/20 px-2 py-0.5 rounded-full">
               Hoje
             </span>
           </div>
@@ -41,14 +41,14 @@ function CardTreino({ titulo, descricao, duracao = "45 min", exercicios = 6 }: C
 
           <button
             onClick={() => navigate("/treinos")}
-            className="mt-4 bg-emerald-500 hover:bg-emerald-400 text-white text-sm font-semibold px-5 py-2 rounded-xl transition-all duration-200 shadow-lg shadow-emerald-500/20"
+            className="mt-4 bg-sky-500 hover:bg-sky-400 text-white text-sm font-semibold px-5 py-2 rounded-xl transition-all duration-200 shadow-lg shadow-sky-500/20"
           >
             Começar treino
           </button>
         </div>
 
         {/* Ícone decorativo */}
-        <div className="w-14 h-14 bg-emerald-500/15 border border-emerald-500/25 rounded-2xl flex items-center justify-center text-emerald-400 shrink-0 ml-4">
+        <div className="w-14 h-14 bg-sky-500/15 border border-sky-500/25 rounded-2xl flex items-center justify-center text-sky-400 shrink-0 ml-4">
           <GiWeightLiftingUp size={26} />
         </div>
       </div>

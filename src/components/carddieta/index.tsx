@@ -27,13 +27,13 @@ function CardDieta({ meta = 0, consumido = 0, objetivo = "manutencao" }: CardDie
   return (
     <div className="relative bg-slate-800/60 border border-slate-700/60 rounded-2xl p-5 overflow-hidden">
       {/* Glow */}
-      <div className="absolute bottom-0 left-0 w-28 h-28 bg-blue-500/10 rounded-full blur-2xl pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-28 h-28 bg-emrald-500/10 rounded-full blur-2xl pointer-events-none" />
 
       <div className="relative">
         {/* Header do card */}
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-blue-500/15 border border-blue-500/25 rounded-xl flex items-center justify-center text-blue-400">
+            <div className="w-8 h-8 bg-emerald-500/15 border border-emerald-500/25 rounded-xl flex items-center justify-center text-emerald-400">
               <GiBerriesBowl size={16} />
             </div>
             <span className="text-sm font-semibold text-white">Dieta de hoje</span>

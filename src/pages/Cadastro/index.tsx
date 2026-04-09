@@ -44,7 +44,7 @@ function Register() {
             setSucesso(true);
             setTimeout(() => {
                 navigate("/dashboard");
-            }, 2000);
+            }, 1000);
         } catch (err: any) {
             setErro(err.message);
         } finally {

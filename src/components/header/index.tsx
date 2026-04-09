@@ -6,7 +6,7 @@ function Header() {
     <header className="bg-slate-800/80 backdrop-blur-sm border-b border-slate-700/50 px-4 py-3 flex justify-between items-center sticky top-0 z-40">
       {/* Avatar + nome */}
       <div className="flex items-center gap-3">
-        <div className="w-10 h-10 rounded-full bg-emerald-500/20 border-2 border-emerald-500/40 flex items-center justify-center text-emerald-400 font-bold text-sm">
+        <div className="w-10 h-10 rounded-full bg-sky-500/20 border-2 border-sky-500/40 flex items-center justify-center text-sky-400 font-bold text-sm">
           U
         </div>
         <div className="flex flex-col">
@@ -18,7 +18,7 @@ function Header() {
       {/* Logo + ações */}
       <div className="flex items-center gap-2">
         <div className="flex items-center gap-1.5 mr-1">
-          <div className="w-6 h-6 rounded-lg bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center">
+          <div className="w-6 h-6 rounded-lg bg-sky-500/20 border border-sky-500/40 flex items-center justify-center">
             <svg className="w-3.5 h-3.5 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
             </svg>

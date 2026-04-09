@@ -36,7 +36,7 @@ export default function CalculadoraBasal() {
     altura: "",
     idade: "",
     sexo: "masculino",
-    nivelAtividade: 1,
+    nivelAtividade: 0,
   });
 
   const [loading, setLoading] = useState(false);
