@@ -1,0 +1,7 @@
+<svg width="120" height="120" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo com borda arredondada -->
+  <rect x="2" y="2" width="96" height="96" rx="20" fill="#0F3B5F" stroke="#1E6FA8" stroke-width="2"></rect>
+
+  <!-- Ícone de raio -->
+  <path d="M55 20 L35 55 H50 L45 80 L70 40 H55 Z" fill="#00BFFF"></path>
+</svg>
